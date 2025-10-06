@@ -1,8 +1,9 @@
 # MUKHAMEDOV NODIR CV
 
 ## Skills
+
 HTML5, CSS3
-JavaScript 
+JavaScript
 Git, Github
 Markdown
 C#, .NET
