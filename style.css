@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+
+  font-family: sans-serif;
+}
+
+.nav {
+  background-color: #003049;
+  padding: 10px;
+  width: 100%;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.nav-list li {
+  margin-left: 3rem;
+}
+
+.fullname {
+  text-align: center;
+}
+
+.fullname h1 {
+  font-weight: 500;
+}
+
+.fullname h3 {
+  font-weight: 400;
+}
+
+.summary-container {
+  display: flex;
+  justify-content: center;
+  font-family: system-ui;
+  margin: 3rem;
+}
+.summary-box p {
+  font-family: system-ui;
+}
+.profile-box {
+  width: 40rem;
+}
+.profile-box h2 {
+  color: #bc6c25;
+}
+.profile-box p {
+  width: 30rem;
+}
+.education-box {
+  width: 35rem;
+}
+.education-box h2 {
+  color: #bc6c25;
+}
+.education-box p {
+  width: 50rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  font-family: system-ui;
+  margin: 3rem;
+}
+
+.contact-box {
+  width: 40rem;
+}
+
+.contact-box h2 {
+  color: #bc6c25;
+}
+.contact-box ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.3rem;
+}
+.projects-box {
+  width: 35rem;
+}
+.projects-box h2 {
+  color: #bc6c25;
+}
+.projects-box ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.3rem;
+}
+.projects-box a {
+  text-decoration: none;
+  color: black;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  font-family: system-ui;
+  gap: 12rem;
+  margin: 3rem;
+}
+
+.courses-box {
+  width: 30rem;
+}
+.courses-box h2 {
+  color: #bc6c25;
+}
+.courses-box ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.3rem;
+}
+
+.languages-box ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.3rem;
+}
+.languages-box h2 {
+  color: #bc6c25;
+}
+.languages-box {
+  width: 35rem;
+}
+.courses-box ul a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #003049;
+  padding: 8px;
+  text-align: center;
+  z-index: 1000;
+  color: white;
+}
+
+@media (max-width: 1100px) {
+  .summary-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .profile-box {
+    max-width: 20rem;
+  }
+  .profile-box p {
+    max-width: 20rem;
+  }
+  .education-box {
+    max-width: 20rem;
+  }
+  .education-box p {
+    max-width: 20rem;
+  }
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-box {
+    width: 20rem;
+  }
+  .projects-box {
+    width: 20rem;
+  }
+
+  .courses-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 5rem;
+  }
+  .courses-box {
+    width: 20rem;
+  }
+  .languages-box {
+    width: 20rem;
+  }
+}

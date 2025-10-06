@@ -1,4 +1,3 @@
-https://github.com/Nodir858/rsschool-cv.git
 # MUKHAMEDOV NODIR CV
 
 ## Skills
